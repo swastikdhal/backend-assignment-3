@@ -1,6 +1,6 @@
 # Inventory Management System
 
-**Made by wastik Dhal**  
+**Made by Swastik Dhal**  
 **Roll No: 2501060044**  
 BCA – Artificial Intelligence & Data Science | Semester 3  
 Backend Assignment 3
@@ -76,6 +76,7 @@ Inventory-Management-System/
 ## What you need before running it
 
 - Node.js and npm
+- Git
 - A MongoDB Atlas account
 - Postman (for testing the APIs)
 
@@ -84,13 +85,13 @@ Inventory-Management-System/
 1. Clone the repo
 
 ```
-git clone
+git clone https://github.com/swastikdhal/backend-assignment-3.git
 ```
 
 2. Go into the folder
 
 ```
-cd Backend-Assignment-3
+cd backend-assignment-3
 ```
 
 3. Install the packages
@@ -143,6 +144,27 @@ I tested all the APIs using Postman. Here's what I checked:
 
 I made sure both the normal responses and the error responses were working the way they should.
 
+## Pushing the project to GitHub
+
+These are the git commands I used to put the project on GitHub:
+
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/swastikdhal/backend-assignment-3.git
+git push -u origin main
+```
+
+To add the rest of the project files later, use:
+
+```
+git add .
+git commit -m "Add project files"
+git push
+```
+
 ## My part in this project
 
 I built the whole backend on my own. This is what I did:
@@ -160,4 +182,4 @@ I built the whole backend on my own. This is what I did:
 
 ## Links
 
-GitHub: 
+GitHub: https://github.com/swastikdhal/backend-assignment-3
